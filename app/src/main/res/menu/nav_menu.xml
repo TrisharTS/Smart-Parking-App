@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:title="@string/Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            />
+        <item
+            android:id="@+id/nav_viewSlot"
+            android:title="Bookslot"
+            android:icon="@drawable/ic_action_slot"
+            />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/Feedback"
+            android:icon="@drawable/ic_action_feedback"
+            />
+        <item
+            android:id="@+id/exit"
+            android:title="@string/Exit"
+            android:icon="@drawable/ic_action_exit"
+            />
+
+    </group>
+
+</menu>

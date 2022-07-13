@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/basic"
+    tools:context=".Exit">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="270dp"
+        android:text="Are you Sure you want to exit?"
+        android:textColor="@color/teal_700"
+        android:textSize="29dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button"
+        android:text="@string/Exit"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my_button"
+        android:text="Cancel"
+        android:textSize="18dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>
